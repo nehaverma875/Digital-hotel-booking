@@ -1,0 +1,61 @@
+ @import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&display=swap');
+
+
+.hidden {
+  display: none;
+}
+body {
+  background-color: rgb(119, 221, 230);
+  font-family: 'IM Fell French Canon', serif;
+}
+
+h1,
+h2 {
+  font-family: Poppins, sans-serif;
+  margin-bottom: 1rem;
+  background: linear-gradient(5deg, orange 60%, black);
+  color: white;
+  font-size: 1.2rem;
+  padding: 1em;
+  text-align: center;
+  border: 1px solid black;
+  font-family: 'IM Fell French Canon', serif;
+}
+
+#customer-detials{
+    
+    align-items:center;
+    margin-left:40%;
+
+}
+input[type=text],input[type=date],input[type=number]{
+    width:40%;
+    
+    
+}
+
+#room-section,#amenities{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    text-align:center
+    
+
+    
+    
+
+}
+img{
+    border: 1px solid black;
+}
+#foo{
+    text-align:center;
+}
+button{
+background: black;    
+height: 50px;
+width: 110px;
+color: white;
+border-radius: 10px;
+}
